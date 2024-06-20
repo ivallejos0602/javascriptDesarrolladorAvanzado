@@ -1,0 +1,10 @@
+Los componentes funcionan de la sig. forma :
+
+1 ) Al escribir en el input para filtrar un articulo, lo hace correctamente, pero si seguido a esto queremos ordenar,
+ no funciona.
+
+2) De la misma forma, si hago un ordenamiento sobre los articulos y luego quiero cambiar el ordenamiento, no funciona, 
+se puede probar cada ordenamiento recargando la pág par que se pueda cambiar de ordenamiento.
+
+tanto el input que filtra por nombre de articulo como los distintos ordenamientos funcionan de uno por vez, 
+si quiero usar uno y usar otro ordenam. a continuacion de otro filtro u ordenamiento, por ahora no estaríaa funcionando asi.

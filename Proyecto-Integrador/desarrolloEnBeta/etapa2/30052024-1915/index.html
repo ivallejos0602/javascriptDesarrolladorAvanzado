@@ -41,7 +41,7 @@
        
         <div>
             <span>Nombre</span>
-            <input type="search" id="search-box" class="form-control" placeholder="Buscar ...">
+            <input  id="search-box" class="form-control" placeholder="Buscar ...">
         </div>        
         
         <div class="container">
@@ -201,7 +201,9 @@
 
         const searchBox = document.getElementById("search-box");
         
-        document.getElementById("search-box").addEventListener('submit', (e) => {
+        document.getElementById("search-box").addEventListener('change', (e) => {
+
+          console.log("dentro del evento de search box ....");
             
           const artsFiltered = articulos.filter( (item) => item.nombre.toLowerCase().includes(searchBox.value.toLowerCase()) );
             
@@ -218,10 +220,8 @@
       
       } // function HomePage
        
-
       HomePage();
-    
-      
+          
     });
 
     </script>
